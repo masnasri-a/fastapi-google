@@ -61,4 +61,4 @@ async def logout(request: Request):
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, host='127.0.0.1', port=9001)
+    uvicorn.run(app, host='localhost', port=9001)
